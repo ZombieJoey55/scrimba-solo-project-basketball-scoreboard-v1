@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container" id="home_inner_">
+            <h3>HOME</h3>
+            <div class="score-div">
+                <p id="score-home-num" class="score-num" aria-live="polite" aria-atomic="true">0</p>
+            </div>
+            <div class="score-button">
+                <button id="increment-home-btn-1" onclick="increment_home_1()"
+                    aria-label="Add 1 point to Home score">+1</button>
+                <button id="increment-home-btn-2" onclick="increment_home_2()"
+                    aria-label="Add 2 points to Home score">+2</button>
+                <button id="increment-home-btn-3" onclick="increment_home_3()"
+                    aria-label="Add 3 points to Home score">+3</button>
+            </div>
+        </div>
+        <div class="inner-container">
+            <h3>GUEST</h3>
+            <div class="score-div">
+                <p id="score-guest-num" class="score-num" aria-live="polite" aria-atomic="true">0</p>
+            </div>
+            <div class="score-button">
+                <button id="increment-guest-btn-1" onclick="increment_guest_1()"
+                    aria-label="Add 1 point to Guest score">+1</button>
+                <button id="increment-guest-btn-2" onclick="increment_guest_2()"
+                    aria-label="Add 2 points to Guest score">+2</button>
+                <button id="increment-guest-btn-3" onclick="increment_guest_3()"
+                    aria-label="Add 3 points to Guest score">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

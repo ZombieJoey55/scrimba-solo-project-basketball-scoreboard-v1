@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s0pbg70erl",
+  "description": "https://scrimba.com/s0pbg70erl/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
