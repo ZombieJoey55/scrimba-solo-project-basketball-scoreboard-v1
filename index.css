@@ -62,14 +62,6 @@ h3{
     display: flex;
 }
 
-.score-button button:first-child {
-    margin-right: 9px;
-}
-
-.score-button button:nth-child(2) {
-    margin-right: 11px;
-}
-
 button{
     width: 45px;
     height: 45px;
@@ -81,4 +73,12 @@ button{
     font-size: 18px;
     line-height: 27.81px;
     padding: 9px 8px 10px 7px;
+}
+
+.score-button button:first-child {
+    margin-right: 9px;
+}
+
+.score-button button:nth-child(2) {
+    margin-right: 11px;
 }
