@@ -16,7 +16,6 @@ body {
     box-sizing: border-box;
     width: 575px;
     height: 385px;
-    border-radius: 1%;
     padding: 68px 83px 68px 82px;
     gap: 100px;
 }
